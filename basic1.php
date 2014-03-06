@@ -11,12 +11,12 @@
 		 	echo "<h1>Your Score: " . $score . "/100" . "</h1>" . "<br>";  //you can add html elements in the php. (h1, h2 are here)
 		 	echo "<h2>Your grade is D.</h2>";
 		} 
-		elseif ($score < 81 && $score > 69) //notice you say $score in both parts.
+		elseif ($score < 81) //notice you say $score in both parts.
 		{
 			echo "<h1>Your Score: " . $score . "/100" . "</h1>" . "<br>";
 			echo "<h2>Your grade is C.</h2>";
 		}
-		elseif ($score < 91 && $score > 79) 
+		elseif ($score < 91) 
 		{
 			echo "<h1>Your Score: " . $score . "/100" . "</h1>" . "<br>";
 			echo "<h2>Your grade is B.</h2>";
